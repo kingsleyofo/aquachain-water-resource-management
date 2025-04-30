@@ -8,6 +8,10 @@ requirements = []
 path = "contracts/aquachain-core.clar"
 depends_on = []
 
+[contracts.aquachain-governance]
+path = "contracts/aquachain-governance.clar"
+depends_on = []
+
 [repl]
 costs_version = 2
 parser_version = 2
